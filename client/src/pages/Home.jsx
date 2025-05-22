@@ -1,6 +1,6 @@
 import React, {  } from "react";
 import CuteClock from "../components/CuteClock";
-import Testimonial from "../components/testimonial";
+import Testimonial from "../components/Testimonial";
 
 
 export default function Home() {
