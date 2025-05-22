@@ -1,8 +1,56 @@
 import React, { useState, useEffect } from "react";
 
-// Cute nicknames to rotate
-const nicknames = ["Jiya Pandya", "pookie", "sweetie", "cupcake", "choco drop", "cutie patootie"];
-
+const nicknames = [
+  "Angel Jiya",
+  "Princess Jiya",
+  "Pookie Jiya",
+  "Sweetie Jiya",
+  "Cupcake Jiya",
+  "Snuggle Jiya",
+  "Cuddlebug Jiya",
+  "Peachy Jiya",
+  "Cherry Jiya",
+  "Bunny Jiya",
+  "Baby Jiya",
+  "Choco Jiya",
+  "Sugarplum Jiya",
+  "Ladoo Jiya",
+  "Sunshine Jiya",
+  "Bubbles Jiya",
+  "Dimples Jiya",
+  "Giggles Jiya",
+  "Teddy Jiya",
+  "Muffin Jiya",
+  "Twinkle Jiya",
+  "Pudding Jiya",
+  "Cinnamon Jiya",
+  "Honeybee Jiya",
+  "Glitter Jiya",
+  "Daisy Jiya",
+  "Twinkie Jiya",
+  "Button Jiya",
+  "Buttercup Jiya",
+  "Coconut Jiya",
+  "Magic Jiya",
+  "Popsicle Jiya",
+  "Pumpkin Jiya",
+  "Nugget Jiya",
+  "Moonlight Jiya",
+  "Panda Jiya",
+  "Snickerdoodle Jiya",
+  "Pikachu Jiya",
+  "Cotton Jiya",
+  "Jellybean Jiya",
+  "Toffee Jiya",
+  "Pixie Jiya",
+  "Fluffy Jiya",
+  "Mochi Jiya",
+  "Kissy Jiya",
+  "Cherrypop Jiya",
+  "Velvet Jiya",
+  "Zuzu Jiya",
+  "Lilac Jiya"
+];
 function getISTTime() {
   const date = new Date();
   const utc = date.getTime() + date.getTimezoneOffset() * 60000;
