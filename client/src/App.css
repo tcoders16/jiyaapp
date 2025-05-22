@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'CookieMonster';
+  src: url('/fonts/cookie.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Biancha';
+  src: url('/biancha-font/Biancha-X3VOa.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BrotherSignature';
+  src: url('/brother-signature-font/BrotherSignature-7BWnK.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'CutiePatootie';
+  src: url('/cutie-patootie-font/CutiePatootie-Rgjv.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CutiePatootieHollow';
+  src: url('/cutie-patootie-font/CutiePatootieHollow-BpZG.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CutiePatootieSkinny';
+  src: url('/cutie-patootie-font/CutiePatootieSkinny-8zXZ.ttf') format('truetype');
+}
+
+
+
+
+
+
+
+
