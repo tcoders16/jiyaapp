@@ -11,7 +11,7 @@ export default function Home() {
       {/* ⏰ Clock & Greeting */}
       <div className="w-full flex flex-col items-center justify-center text-center font-cookie text-pink-700">
         <CuteClock />
-        <p className="text-sm text-gray-600 mt-2 ml-22">-Made By -Omkumar</p>
+        <p className="text-sm text-gray-600 mt-2 ml-22">Made By -Omkumar Solanki</p>
       </div>
 
       {/* 🧸 Testimonial Card */}
