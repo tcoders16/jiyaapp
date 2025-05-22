@@ -17,18 +17,20 @@ export default function Home() {
         <Testimonial />
       </div>
 
-<div className="bg-pink-300 p-4 rounded-2xl shadow-[5px_5px_0px_rgba(0,0,0,0.7)] w-fit border border-pink-300 mt-10">
-  <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/8CEJoCr_9UI?autoplay=1&controls=1"
-    title="YouTube Music"
-    frameBorder="0"
-    allow="autoplay"
-    allowFullScreen
-    className="rounded-xl"
-  ></iframe>
-</div>
+      <div className="bg-pink-300 p-4 rounded-2xl shadow-[5px_5px_0px_rgba(0,0,0,0.7)] w-full max-w-2xl border border-pink-300 mt-10 mx-auto">
+        <div className="relative w-full pb-[56.25%]"> {/* 16:9 aspect ratio */}
+          <iframe
+            src="https://www.youtube.com/embed/8CEJoCr_9UI?autoplay=1&controls=1"
+            title="YouTube Music"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+            className="absolute top-0 left-0 w-full h-full rounded-xl"
+            frameBorder="0"
+          ></iframe>
+        </div>
+      </div>
+
+ 
     </div>
   );
 }
